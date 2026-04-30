@@ -28,7 +28,7 @@ jobs:
       - name: 執行監控腳本
         run: python monitor.py
 
-      - name: 檢查是否有變動並推送到倉庫
+      - name: name: Run_Monitor_Now
         run: |
           if [ -f changed.txt ]; then
             git config --global user.name "InventoryBot"
